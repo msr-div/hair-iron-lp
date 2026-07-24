@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IONIC PRO | LUMiA ヘアスタイラー</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <a href="#" class="header__logo">
+        <img src="assets/images/logo-393291.png" alt="LUMiA" width="120" height="24">
+      </a>
+      <button class="header__menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="header__nav" id="nav">
+        <a href="#hero">IONIC PRO</a>
+        <a href="#features">Features</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#comparison">Comparison</a>
+        <a href="#how-to-use">How to Use</a>
+        <a href="#spec">Spec</a>
+        <a href="#purchase" class="header__cta">購入する</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <img src="assets/images/hero-bg.png" alt="" aria-hidden="true">
+      </div>
+      <div class="hero__content container">
+        <div class="hero__badge">
+          <span class="hero__badge-dot"></span>
+          <span>2026年 美容家電アワード 最優秀賞受賞</span>
+        </div>
+        <p class="hero__label">HAIR STYLER</p>
+        <h1 class="hero__title">
+          家で叶える、<br>
+          サロン帰りの<strong>ツヤ</strong>
+        </h1>
+        <div class="hero__tags">
+          <span class="tag">朝5分短縮</span>
+          <span class="tag">雨の日もまとまる</span>
+          <span class="tag">毎日がサロン帰り</span>
+        </div>
+        <p class="hero__desc">プロ仕様の温度コントロールで、サロン級の仕上がりを自宅で。</p>
+        <div class="hero__cta-wrap">
+          <a href="#purchase" class="btn btn--primary btn--lg">
+            <span class="btn__sub">送料無料</span>
+            <span class="btn__main">購入する — ¥15,800<small>（税込）</small></span>
+          </a>
+          <p class="hero__trust">1年保証 ・ 30日返品OK ・ 最短翌日発送</p>
+          <div class="hero__rating">
+            <span class="hero__stars">★★★★★</span>
+            <span>4.8 / 5.0 · 累計 2,847件のレビュー</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats">
+      <div class="stats__inner container">
+        <div class="stats__item">
+          <p class="stats__num">30秒</p>
+          <p class="stats__label">瞬間加熱テクノロジー</p>
+        </div>
+        <div class="stats__item">
+          <p class="stats__num">121%</p>
+          <p class="stats__label">水分量UP（使用後比較）</p>
+        </div>
+        <div class="stats__item">
+          <p class="stats__num">5段階</p>
+          <p class="stats__label">温度調節 120〜200℃</p>
+        </div>
+        <div class="stats__item">
+          <p class="stats__num">1年</p>
+          <p class="stats__label">製品保証</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem / Solution -->
+    <section class="solution section">
+      <div class="container container--narrow">
+        <div class="solution__grid">
+          <div class="solution__card">
+            <p class="solution__eyebrow">朝 5 分</p>
+            <h3 class="solution__heading">スタイリング時間を短縮</h3>
+            <p class="solution__text">瞬間加熱とセラミックプレートで、ドタバタの朝でも余裕が生まれる。</p>
+          </div>
+          <div class="solution__card">
+            <p class="solution__eyebrow">雨の日でも</p>
+            <h3 class="solution__heading">崩れないスタイルをキープ</h3>
+            <p class="solution__text">マイナスイオンが髪内部の水分を閉じ込め、湿気の多い日も安心。</p>
+          </div>
+          <div class="solution__card">
+            <p class="solution__eyebrow">毎日が</p>
+            <h3 class="solution__heading">サロン帰りのツヤ髪</h3>
+            <p class="solution__text">低温設計で傷めずにツヤを出す。美容院の費用と時間を節約できる。</p>
+          </div>
+        </div>
+        <p class="solution__summary">これらすべてが、<strong>IONIC PRO</strong> ひとつで実現できます。</p>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features section section--accent" id="features">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__sub">テクノロジーと機能</p>
+          <h2 class="section-header__title">FEATURES</h2>
+        </div>
+        <div class="features__grid">
+          <div class="features__image">
+            <img src="assets/images/product-feature-1fcf55.png" alt="IONIC PRO ヘアアイロン">
+          </div>
+          <div class="features__list">
+            <article class="feature-card">
+              <div class="feature-card__head">
+                <span class="feature-card__num">01</span>
+                <h3>高性能セラミックプレート</h3>
+              </div>
+              <p>均一な熱分布で髪全体を美しく。セラミックコーティングが摩擦を最小化し、スムーズな滑りを実現。</p>
+              <p class="feature-card__note">→ 少ない回数でまとまり、髪への負担も最小限に</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-card__head">
+                <span class="feature-card__num">02</span>
+                <h3>サロンスピード瞬間加熱技術</h3>
+              </div>
+              <p>30秒で加熱開始。忙しい朝でも待ち時間ゼロでスタイリングを始められる。</p>
+              <p class="feature-card__note">→ 毎朝5分の余裕が生まれる</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-card__head">
+                <span class="feature-card__num">03</span>
+                <h3>5段階温度調節 120〜200℃</h3>
+              </div>
+              <p>髪質に合わせて5段階で設定可能。細い髪から太い髪まで最適な温度でケア。</p>
+              <p class="feature-card__note">→ 傷みが気になる方は低温設定でやさしくスタイリング</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Evidence -->
+    <section class="evidence section" id="evidence">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__sub">信頼の証拠</p>
+          <h2 class="section-header__title">EVIDENCE</h2>
+        </div>
+        <p class="evidence__lead">第三者機関・プロフェッショナルが認めた、IONIC PRO の実力。</p>
+        <div class="evidence__awards">
+          <div class="award-card">
+            <p class="award-card__num">2026</p>
+            <p class="award-card__title">美容家電アワード 最優秀賞</p>
+            <p class="award-card__sub">美容専門誌主催</p>
+          </div>
+          <div class="award-card">
+            <p class="award-card__num">推薦</p>
+            <p class="award-card__title">皮膚科学会 推薦製品認定</p>
+            <p class="award-card__sub">低刺激・低温設計を評価</p>
+          </div>
+          <div class="award-card">
+            <p class="award-card__num">1,200店</p>
+            <p class="award-card__title">ヘアサロン 導入実績</p>
+            <p class="award-card__sub">プロが選ぶアイロン</p>
+          </div>
+          <div class="award-card">
+            <p class="award-card__num">12,000件+</p>
+            <p class="award-card__title">SNS累計 投稿</p>
+            <p class="award-card__sub">#IONICPRO リアル評判</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__avatar">
+            <img src="assets/images/testimonial-avatar.png" alt="田中 ヒロ">
+          </div>
+          <div class="testimonial__body">
+            <blockquote>「低温でここまでのツヤが出るアイロンは珍しい。熱ダメージを気にするお客様にも自信を持って勧められます。セラミックプレートの滑らかさは、私が今まで使ってきた業務用と遜色ありません。」</blockquote>
+            <p class="testimonial__name">田中 ヒロ</p>
+            <p class="testimonial__role">トップスタイリスト / 美容師歴15年 / 銀座サロン勤務 / IONIC PRO 監修者</p>
+          </div>
+        </div>
+        <div class="lab-data">
+          <div class="section-header section-header--sm">
+            <p class="section-header__sub">第三者機関試験データ</p>
+            <h3 class="lab-data__title">数値が証明する、<strong>髪へのやさしさ</strong></h3>
+          </div>
+          <div class="lab-data__stats">
+            <div class="stat-card">
+              <p class="stat-card__label">水分量UP</p>
+              <p class="stat-card__sub">使用前後比較（第三者機関測定）</p>
+              <p class="stat-card__value">121%</p>
+            </div>
+            <div class="stat-card">
+              <p class="stat-card__label">摩擦係数</p>
+              <p class="stat-card__sub">一般的なアイロンとの比較</p>
+              <p class="stat-card__value">40%減</p>
+            </div>
+            <div class="stat-card">
+              <p class="stat-card__label">熱ダメージ指数</p>
+              <p class="stat-card__sub">業界基準値との比較（120℃設定時）</p>
+              <p class="stat-card__value">最小クラス</p>
+            </div>
+          </div>
+          <div class="lab-data__chart">
+            <img src="assets/images/lab-chart-414adc.png" alt="試験データグラフ">
+          </div>
+          <div class="media-logos">
+            <p class="media-logos__label">掲載メディア</p>
+            <div class="media-logos__list">
+              <span>美容専門誌 BEAUTY PRO</span>
+              <span>ヘアケア総合誌 HAIR+</span>
+              <span>女性ライフスタイル誌 ELLE HAIR</span>
+              <span>ビューティーテックメディア</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="comparison section section--accent" id="comparison">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__sub">使用前後の比較</p>
+          <h2 class="section-header__title">COMPARISON</h2>
+        </div>
+        <p class="comparison__lead">わずか5分のスタイリングで、サロン帰りのような仕上がり。</p>
+        <div class="comparison__images">
+          <div class="comparison__item">
+            <p class="comparison__label">BEFORE</p>
+            <div class="comparison__photo">
+              <img src="assets/images/before.png" alt="使用前">
+            </div>
+          </div>
+          <div class="comparison__item">
+            <p class="comparison__label comparison__label--after">AFTER</p>
+            <div class="comparison__photo comparison__photo--after">
+              <img src="assets/images/after.png" alt="使用後">
+            </div>
+          </div>
+        </div>
+        <div class="comparison__cards">
+          <article class="compare-card">
+            <span class="compare-card__num">01</span>
+            <h3>少ない回数で思い通りのストレート</h3>
+            <p>湿度の高い日でもスタイルをキープ。1〜2回のスライドでサロン級のストレートが完成。</p>
+            <p class="compare-card__quote">「美容院から帰ったあの感覚が、毎朝続く」</p>
+          </article>
+          <article class="compare-card">
+            <span class="compare-card__num">02</span>
+            <h3>マイナスイオンでケア＆スタイリング</h3>
+            <p>髪内部の水分量が約121%にUP。スタイリングしながらダメージ補修を同時に実現。</p>
+            <p class="compare-card__quote">「使うたびに、髪がきれいになっていく実感」</p>
+          </article>
+        </div>
+        <div class="comparison__cta">
+          <p>この変化を、今日から始めませんか？</p>
+          <a href="#purchase" class="btn btn--primary">
+            <span class="btn__sub">送料無料 ・ 1年保証 ・ 30日返品OK ・ 最短翌日発送</span>
+            <span class="btn__main">購入する — ¥15,800（税込）</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- User Voice -->
+    <section class="voice section" id="voice">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__sub">お客様の声</p>
+          <h2 class="section-header__title">USER VOICE</h2>
+        </div>
+        <div class="voice__summary">
+          <div class="voice__score">
+            <p class="voice__rating-num">4.8</p>
+            <p class="voice__stars">★★★★★</p>
+            <p class="voice__count">2,847件のレビュー</p>
+          </div>
+          <div class="voice__bars">
+            <div class="rating-bar"><span>★★★★★</span><div class="rating-bar__track"><div class="rating-bar__fill" style="width:74%"></div></div><span>74%</span></div>
+            <div class="rating-bar"><span>★★★★☆</span><div class="rating-bar__track"><div class="rating-bar__fill" style="width:19%"></div></div><span>19%</span></div>
+            <div class="rating-bar"><span>★★★☆☆</span><div class="rating-bar__track"><div class="rating-bar__fill" style="width:5%"></div></div><span>5%</span></div>
+            <div class="rating-bar"><span class="rating-bar__muted">それ以下</span><div class="rating-bar__track"><div class="rating-bar__fill" style="width:2%"></div></div><span>2%</span></div>
+          </div>
+        </div>
+        <div class="voice__cards">
+          <article class="review-card">
+            <p class="review-card__stars">★★★★★</p>
+            <h3>時短に感動</h3>
+            <p>「毎朝のスタイリングがこんなに楽になるとは思っていませんでした。30秒で準備できるので、忙しい朝も余裕が生まれました。ツヤが全然違います。」</p>
+            <p class="review-card__author">— M.T. さん / 28歳</p>
+          </article>
+          <article class="review-card">
+            <p class="review-card__stars">★★★★★</p>
+            <h3>デザインが可愛い</h3>
+            <p>「デザインが本当に可愛くて、洗面台に置いておくだけでテンションが上がります。使い心地も最高で、髪のパサつきが気にならなくなりました。」</p>
+            <p class="review-card__author">— K.S. さん / 25歳</p>
+          </article>
+          <article class="review-card">
+            <p class="review-card__stars">★★★★★</p>
+            <h3>雨の日も安心</h3>
+            <p>「温度調節ができるのがとても便利。今まで使っていたものより仕上がりがまとまりやすく、雨の日でもスタイルが崩れません。もっと早く買えばよかったです。」</p>
+            <p class="review-card__author">— A.N. さん / 31歳</p>
+          </article>
+        </div>
+        <div class="voice__sns">
+          <p class="voice__sns-label">SNSでの評判</p>
+          <p class="voice__sns-title">#IONICPRO でタグ付け投稿が <strong>12,000件+</strong></p>
+          <p class="voice__sns-sub">Instagramでのリアルな使用感レポートをチェック</p>
+          <div class="voice__sns-grid">
+            <img src="assets/images/sns-1-261868.png" alt="SNS投稿1">
+            <img src="assets/images/sns-2-12e10f.png" alt="SNS投稿2">
+            <img src="assets/images/sns-3-58e32f.png" alt="SNS投稿3">
+            <img src="assets/images/sns-4.png" alt="SNS投稿4">
+          </div>
+        </div>
+        <div class="voice__cta">
+          <p class="voice__cta-label">2,847人が選んだ理由</p>
+          <p class="voice__cta-text">あなたも、毎朝のツヤ髪を体験してみませんか？</p>
+          <a href="#purchase" class="btn btn--primary">
+            <span class="btn__sub">送料無料 ・ 1年保証 ・ 30日返品OK ・ 最短翌日発送</span>
+            <span class="btn__main">購入する — ¥15,800（税込）</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Use -->
+    <section class="howto section section--accent" id="how-to-use">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__sub">使用方法</p>
+          <h2 class="section-header__title">HOW TO USE</h2>
+        </div>
+        <p class="howto__lead">たった3ステップ。はじめての方でも迷わず使えます。</p>
+        <div class="howto__steps">
+          <article class="step-card">
+            <p class="step-card__label">STEP 1</p>
+            <div class="step-card__image">
+              <img src="assets/images/step-1.png" alt="電源を入れて温度設定">
+            </div>
+            <h3>電源を入れて温度設定</h3>
+            <p>ボタンを押して電源ON。髪質に合わせて温度を選択。</p>
+            <div class="step-card__tip">
+              <span class="step-card__point">POINT</span>
+              <span>初めての方は140℃からスタートがおすすめ</span>
+            </div>
+          </article>
+          <article class="step-card">
+            <p class="step-card__label">STEP 2</p>
+            <div class="step-card__image">
+              <img src="assets/images/step-2.png" alt="髪を挟んでスライド">
+            </div>
+            <h3>髪を挟んでスライド</h3>
+            <p>根元から毛先へゆっくり滑らせる。</p>
+            <div class="step-card__tip">
+              <span class="step-card__point">POINT</span>
+              <span>1セクションずつ丁寧に。急がなくて大丈夫</span>
+            </div>
+          </article>
+          <article class="step-card">
+            <p class="step-card__label">STEP 3</p>
+            <div class="step-card__image">
+              <img src="assets/images/step-3.png" alt="仕上げ">
+            </div>
+            <h3>仕上げ</h3>
+            <p>全体を整えてツヤ髪完成。</p>
+            <div class="step-card__tip">
+              <span class="step-card__point">POINT</span>
+              <span>所要時間は全体で約5分。毎朝の習慣に</span>
+            </div>
+          </article>
+        </div>
+        <div class="howto__support">
+          <h3>使い方が不安な方も安心</h3>
+          <p>購入後もサポートチームが丁寧にフォロー。返品・交換も30日以内なら対応します。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Colors -->
+    <section class="colors section section--dark" id="colors">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__sub section-header__sub--light">カラーバリエーション</p>
+          <h2 class="section-header__title section-header__title--light">COLORS</h2>
+        </div>
+        <div class="colors__grid">
+          <div class="colors__preview">
+            <img src="assets/images/product-color.png" alt="IONIC PRO 製品画像" id="colorPreview">
+          </div>
+          <div class="colors__selector">
+            <p class="colors__label">カラーを選択</p>
+            <button class="color-btn color-btn--active" data-color="black">
+              <span class="color-btn__swatch color-btn__swatch--black"></span>
+              <span class="color-btn__info">
+                <span class="color-btn__name">BLACK</span>
+                <span class="color-btn__desc">マットブラック</span>
+              </span>
+            </button>
+            <button class="color-btn" data-color="white">
+              <span class="color-btn__swatch color-btn__swatch--white"></span>
+              <span class="color-btn__info">
+                <span class="color-btn__name">WHITE</span>
+                <span class="color-btn__desc">クリーンホワイト</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Spec -->
+    <section class="spec section" id="spec">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <p class="section-header__sub">他シリーズとの比較</p>
+          <h2 class="section-header__title">SPEC</h2>
+        </div>
+        <div class="spec-table-wrap">
+          <table class="spec-table">
+            <thead>
+              <tr>
+                <th>項目</th>
+                <th class="spec-table__highlight">IONIC PRO<br><small>推奨</small></th>
+                <th>IONIC STANDARD</th>
+                <th>IONIC BASIC</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>加熱時間</td>
+                <td class="spec-table__highlight">30秒</td>
+                <td>60秒</td>
+                <td>90秒</td>
+              </tr>
+              <tr>
+                <td>温度調節</td>
+                <td class="spec-table__highlight">5段階</td>
+                <td>3段階</td>
+                <td>2段階</td>
+              </tr>
+              <tr>
+                <td>イオン機能</td>
+                <td class="spec-table__highlight">◯</td>
+                <td>◯</td>
+                <td>×</td>
+              </tr>
+              <tr>
+                <td>自動電源オフ</td>
+                <td class="spec-table__highlight">◯</td>
+                <td>◯</td>
+                <td>×</td>
+              </tr>
+              <tr>
+                <td>価格（税込）</td>
+                <td class="spec-table__highlight">¥15,800</td>
+                <td>¥9,800</td>
+                <td>¥5,800</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="spec__guarantees">
+          <div class="guarantee-card">
+            <h3>1年間製品保証</h3>
+            <p>万が一の故障も安心。購入から1年以内は無償対応します。</p>
+          </div>
+          <div class="guarantee-card">
+            <h3>30日間返品保証</h3>
+            <p>使ってみて合わなければ、理由を問わず返品・返金に対応。</p>
+          </div>
+          <div class="guarantee-card">
+            <h3>送料無料・翌日発送</h3>
+            <p>15,000円以上のご購入は送料無料。最短翌日にお届け。</p>
+          </div>
+          <div class="guarantee-card">
+            <h3>24時間サポート対応</h3>
+            <p>使い方から不具合まで、専任チームがチャットで丁寧に対応。</p>
+          </div>
+        </div>
+        <p class="spec__note">購入前の不安を解消するために、FAQ・保証・返品ポリシーを整備しています。<br>まずはお気軽にご購入ください。</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section section--accent" id="faq">
+      <div class="container container--faq">
+        <div class="section-header">
+          <p class="section-header__sub">よくあるご質問</p>
+          <h2 class="section-header__title">FAQ</h2>
+        </div>
+        <div class="faq__list">
+          <details class="faq-item">
+            <summary>髪が細く傷みやすいですが、使っても大丈夫ですか？</summary>
+            <p>120℃から始められる5段階温度調節に対応。細い髪やダメージ毛には低温設定をおすすめします。セラミックプレートが摩擦を抑え、やさしくスタイリングできます。</p>
+          </details>
+          <details class="faq-item">
+            <summary>毎日使っても髪は傷みませんか？</summary>
+            <p>低温設計とマイナスイオン機能により、毎日の使用でもダメージを最小限に抑えます。ただし、同じ部分への過度な熱は避け、適切な温度設定をお守りください。</p>
+          </details>
+          <details class="faq-item">
+            <summary>返品・交換はできますか？</summary>
+            <p>ご購入から30日以内であれば、理由を問わず返品・返金に対応いたします。未使用・未開封に限らず、お試しいただいた上での返品も可能です。</p>
+          </details>
+          <details class="faq-item">
+            <summary>海外でも使用できますか？</summary>
+            <p>100〜240V対応のワールドワイド電源仕様です。付属の変換プラグで、主要国での使用が可能です。詳細は取扱説明書をご確認ください。</p>
+          </details>
+          <details class="faq-item">
+            <summary>保証期間はどのくらいですか？</summary>
+            <p>ご購入日から1年間の製品保証が付いています。通常使用における故障・不具合は無償で修理または交換いたします。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Other Series -->
+    <section class="series section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__sub">他のヘアケア商品</p>
+          <h2 class="section-header__title">OTHER SERIES</h2>
+        </div>
+        <div class="series__grid">
+          <a href="#" class="series-card">
+            <div class="series-card__image">
+              <img src="assets/images/series-curl.png" alt="IONIC CURL PRO">
+            </div>
+            <div class="series-card__info">
+              <span class="series-card__dot"></span>
+              <span class="series-card__name">IONIC CURL PRO</span>
+            </div>
+            <p class="series-card__type">カールアイロン</p>
+          </a>
+          <a href="#" class="series-card">
+            <div class="series-card__image">
+              <img src="assets/images/series-brush.png" alt="IONIC BRUSH">
+            </div>
+            <div class="series-card__info">
+              <span class="series-card__dot"></span>
+              <span class="series-card__name">IONIC BRUSH</span>
+            </div>
+            <p class="series-card__type">ロールブラシアイロン</p>
+          </a>
+          <a href="#" class="series-card">
+            <div class="series-card__image">
+              <img src="assets/images/series-comb-32a31c.png" alt="IONIC COMB">
+            </div>
+            <div class="series-card__info">
+              <span class="series-card__dot"></span>
+              <span class="series-card__name">IONIC COMB</span>
+            </div>
+            <p class="series-card__type">コームアイロン</p>
+          </a>
+          <a href="#" class="series-card">
+            <div class="series-card__image">
+              <img src="assets/images/series-dryer.png" alt="IONIC DRYER">
+            </div>
+            <div class="series-card__info">
+              <span class="series-card__dot"></span>
+              <span class="series-card__name">IONIC DRYER</span>
+            </div>
+            <p class="series-card__type">ドライヤー</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Purchase anchor -->
+    <section class="purchase section section--accent" id="purchase">
+      <div class="container">
+        <div class="purchase__inner">
+          <h2>IONIC PRO を今すぐ体験</h2>
+          <p class="purchase__price">¥15,800<small>（税込）</small></p>
+          <a href="#" class="btn btn--primary btn--lg">
+            <span class="btn__sub">送料無料</span>
+            <span class="btn__main">購入する</span>
+          </a>
+          <p class="purchase__trust">1年保証 ・ 30日返品OK ・ 最短翌日発送</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__logo">IONIC PRO</p>
+          <p class="footer__desc">髪へのダメージを抑えながら、プロ品質のスタイリングを自宅で実現するヘアアイロン。</p>
+          <p class="footer__guarantee">1年間製品保証 ／ 30日間返品保証 ／ 送料無料（15,000円以上）</p>
+        </div>
+        <div class="footer__menu">
+          <p class="footer__heading">MENU</p>
+          <nav>
+            <a href="#">会社情報</a>
+            <a href="#">プライバシーポリシー</a>
+            <a href="#">お問い合わせ</a>
+            <a href="#">利用規約</a>
+            <a href="#">特定商取引法に基づく表記</a>
+            <a href="#faq">よくある質問</a>
+          </nav>
+        </div>
+        <div class="footer__social">
+          <p class="footer__heading">FOLLOW US</p>
+          <div class="footer__icons">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="X">X</a>
+            <a href="#" aria-label="YouTube">YT</a>
+            <a href="#" aria-label="LINE">LINE</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 LUMiA / IONIC PRO. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
