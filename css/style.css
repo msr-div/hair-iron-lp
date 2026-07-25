@@ -359,6 +359,14 @@ strong {
   gap: 16px;
 }
 
+.hero__cta-wrap .btn--lg {
+  width: 320px;
+  height: 80px;
+  padding: 0 24px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
 .hero__trust {
   font-size: 15px;
   letter-spacing: 0.052em;
