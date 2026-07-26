@@ -803,7 +803,7 @@ strong {
   text-align: center;
 }
 
-.comparison__cta > p {
+.comparison__cta>p {
   font-weight: 300;
   font-size: 20px;
   letter-spacing: 0.05em;
@@ -857,7 +857,7 @@ strong {
   gap: 16px;
 }
 
-.rating-bar > span:first-child {
+.rating-bar>span:first-child {
   width: 96px;
   font-size: 13px;
   letter-spacing: 0.05em;
@@ -883,7 +883,7 @@ strong {
   border-radius: 99px;
 }
 
-.rating-bar > span:last-child {
+.rating-bar>span:last-child {
   width: 40px;
   text-align: right;
   font-size: 13px;
@@ -968,8 +968,9 @@ strong {
 }
 
 .voice__sns-grid img {
-  width: 306px;
+  width: auto;
   height: 377px;
+  max-width: 100%;
   object-fit: cover;
   border: 1px solid #e7ddd6;
   border-radius: 4px;
@@ -1041,7 +1042,7 @@ strong {
   margin-bottom: 8px;
 }
 
-.step-card > p {
+.step-card>p {
   color: #655c55;
   line-height: 1.95;
   margin-bottom: 13px;
@@ -1528,7 +1529,7 @@ strong {
     top: var(--header-height);
     left: 0;
     right: 0;
-    bottom: 0;
+    height: calc(100vh - var(--header-height));
     flex-direction: column;
     align-items: stretch;
     gap: 0;
